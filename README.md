@@ -21,7 +21,7 @@ Read message (return one message)-https://dolev.pythonanywhere.com/Messages/Mess
 
 Delete message (as owner or as receiver)-https://dolev.pythonanywhere.com/Messages/Message/<name Subject Message> [Delete a message with the button -Delete]
 
-## Additions
+## Remarks
 use authentication method to set up the request for the logged in user. So if you ask for the
 get messages API you will only get the messages for the current logged in user.
 
