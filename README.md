@@ -28,4 +28,4 @@ get messages API you will only get the messages for the current logged in user.
 
 ## Requirements
 
-Use the package manager [Installtion](https://github.com/DolevPeretz/Api-Message/blob/master/requirements.txt) to install foobar.
+Install this requirements [Installtion](https://github.com/DolevPeretz/Api-Message/blob/master/requirements.txt).
