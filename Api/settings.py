@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 import os
-import django_Heroku
+# import django_Heroku
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-f@i=o#!bd=2hjin7(a^cjjkd6g*rkmioh6qan--&rxl5f9sc4j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 SITE_ID = 3
 # Application definition
@@ -140,7 +140,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT= os.path.join(BASE_DIR,'static')
-django_Heroku.settings(locals())
+# django_Heroku.settings(locals())
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
